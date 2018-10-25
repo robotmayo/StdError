@@ -1,0 +1,34 @@
+{
+  "name": "@robotmayo/stderr",
+  "version": "1.0.0",
+  "description": "Small extension to the default error class, adding a code and context property",
+  "main": "module/index.js",
+  "types": "./module/index.d.ts",
+  "scripts": {
+    "test": "ava -v",
+    "test:cov": "nyc ava -v",
+    "build": "tsc",
+    "build:watch": "tsc -w",
+    "prepublish": "tsc"
+  },
+  "files": [
+    "module/index.js",
+    "module/index.d.ts"
+  ],
+  "keywords": [
+    "error"
+  ],
+  "ava": {
+    "files": [
+      "module/**/*.test.js"
+    ]
+  },
+  "author": "robotmayo",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "10.12.0",
+    "ava": "0.25.0",
+    "nyc": "13.1.0",
+    "typescript": "3.1.3"
+  }
+}
