@@ -20,8 +20,9 @@ function thisWillThrow() {
 ## Api
 
 `new StdError(message, code, [context])`
-| Parameter | Required | Type | Description |
-| --------- | -------- | ---- | ----------- |
-| message |True| string | The error message |
-| code | True| string | The error code. Recommended to be all caps, underscores instead of spaces |
-| context|False | Object | Object containing potentially useful meta information with the error |
+
+| Parameter | Required | Type   | Description                                                               |
+| --------- | -------- | ------ | ------------------------------------------------------------------------- |
+| message   | True     | string | The error message                                                         |
+| code      | True     | string | The error code. Recommended to be all caps, underscores instead of spaces |
+| context   | False    | Object | Object containing potentially useful meta information with the error      |
