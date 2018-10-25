@@ -1,5 +1,5 @@
 {
-  "name": "@robotmayo/stderr",
+  "name": "@robotmayo/stderror",
   "version": "1.0.0",
   "description": "Small extension to the default error class, adding a code and context property",
   "main": "module/index.js",
